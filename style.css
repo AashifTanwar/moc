@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.left, .right{
+    display: flex;
+    width: 30vw;
+    height: 100vh;
+}
+.main{
+    background-color: #000000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: calc(100vw - 40vw);
+}
+body{
+    color: white;
+    display: flex;
+    gap: 5px;
+    background-color: black;
+}
+img{
+    width: 90%;
+    border-radius: 9px;
+    margin: 10px;
+}
+.up_scroll{
+    height: 100;
+    overflow: hidden;
+}
+.down_scroll{
+    height: 100%;
+    overflow: hidden;
+}
