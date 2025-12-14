@@ -67,7 +67,7 @@ img{
 .u-scroller{
     width: 100%;
     display: block;
-    animation: scroll-down 20s linear infinite;
+    animation: scroll-down 25s linear infinite;
 }
 .btns{
     display: flex;
@@ -117,4 +117,5 @@ img{
     to {
         transform: translateY(0);
     }
+
 }
