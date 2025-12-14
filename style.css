@@ -62,12 +62,12 @@ img{
 .scroller{
     width: 100%;
     display: block;
-    animation: scroll-up 10s linear infinite;
+    animation: scroll-up 25s linear infinite;
 }
 .u-scroller{
     width: 100%;
     display: block;
-    animation: scroll-down 10s linear infinite;
+    animation: scroll-down 20s linear infinite;
 }
 .btns{
     display: flex;
